@@ -1,4 +1,26 @@
+# This is a BLOG -UI Project
+
+## The Project description is as below mentioned.
+
+Here i have created three links:
+* Home
+* Users
+* Posts
+
+As we click on the users link it takes me to the use page, where we get a list of 10 users. Those users data is fetched from external API calls. As one clicks on the user name which lands him to the posts written bt that user
+
+Similarly, When we click on the Posts link we get landed to the Posts page whare we get 100 posts of all the 10 users. If someone clicks on a post it is going to take him to a new page which dispays the post written by that user, body and the comments.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+```
+bash
+npm install react-router-dom
+npm install redux
+npm install react-redux
+npm install redux thunk
+npm install axios
+```
 
 ## Available Scripts
 
